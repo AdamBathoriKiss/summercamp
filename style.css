@@ -47,6 +47,7 @@ header a{
     object-fit: cover;
 }
 
+
 .carousel .list .item .content{
     position: absolute;
     top: 20%;
@@ -54,15 +55,11 @@ header a{
     max-width: 80%;
     left: 50%;
     transform: translateX(-50%);
-    padding-right: 30%;
+    padding-right: 40%;
+    text-align: justify;
     box-sizing: border-box;
     color: #fff;
     text-shadow: 0 5px 10px #0004;
-}
-
-.carousel .list .item .content .author{
-    font-weight: bold;
-    letter-spacing: 10px;
 }
 
 .carousel .list .item .content .title,
@@ -102,7 +99,7 @@ header a{
  .thumbnail {
     position: absolute;
     bottom: 50px;
-    left: 50%;
+    left: 56%;
     width: max-content;
     z-index: 100;
     display: flex;
@@ -170,7 +167,6 @@ header a{
     z-index: 1;
  }
 
- .carousel .list .item:nth-child(1) .author,
  .carousel .list .item:nth-child(1) .title,
  .carousel .list .item:nth-child(1) .topic,
  .carousel .list .item:nth-child(1) .description,
@@ -261,9 +257,10 @@ header a{
     to{
         width: 150px;
         height: 220px;
-        border-radius: 20px;
-        left: 50%;
+        position: absolute;
+        left: 56%;
         bottom: 50px;
+        border-radius: 20px;
     }
  }
 
@@ -279,7 +276,6 @@ header a{
     }
  }
 
- .carousel.prev .list .item:nth-child(2) .author,
  .carousel.prev .list .item:nth-child(2) .title,
  .carousel.prev .list .item:nth-child(2) .topic,
  .carousel.prev .list .item:nth-child(2) .description,
